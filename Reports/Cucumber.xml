@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="15" time="782.398692">
+    <testcase classname="vieworder" name="My Porfile Customer Login" time="69.900573">
+        <system-out><![CDATA[Given User is on Home Page..................................................passed
+When User Click on My Profile Icon..........................................passed
+Then User Enter Mobile number...............................................passed
+And User Click on Submit Button.............................................passed
+When User Enter OTP.........................................................passed
+And User Click on OTP Submit Button.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="vieworder" name="My Profile Customer Name Display" time="22.873307">
+        <system-out><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on Registred My Profile Icon................................passed
+Then User can See Name of Person............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="vieworder" name="My Profile Data Update" time="40.125009">
+        <system-out><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on Registred My Profile Icon................................passed
+And User Click on My Profile Link...........................................passed
+Then It Display My Profile Page.............................................passed
+When User Click on Edit Image Button........................................passed
+Then User Update First Name.................................................passed
+Then user Update Last Name..................................................passed
+Then User Update Date of Birth..............................................passed
+Then User Update Mobile Number..............................................passed
+And Click on Update Link....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="vieworder" name="My Profile Image Upload" time="28.694112">
+        <system-out><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on Registred My Profile Icon................................passed
+And User Click on My Profile Link...........................................passed
+Then It Display My Profile Page.............................................passed
+When User Click on Upload Button to Update Profile Image....................passed
+Then Profile Image is Updated...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="vieworder" name="My Profile Data Update Again" time="41.601819">
+        <system-out><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on Registred My Profile Icon................................passed
+And User Click on My Profile Link...........................................passed
+Then It Display My Profile Page.............................................passed
+When User Click on Edit Image Button........................................passed
+Then User Update First Name Again...........................................passed
+Then user Update Last Name Again............................................passed
+Then User Update Date of Birth Again........................................passed
+Then User Update Mobile Number Again........................................passed
+And Click on Update Link....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="vieworder" name="My Profile Image Upload Again" time="28.028441">
+        <system-out><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on Registred My Profile Icon................................passed
+And User Click on My Profile Link...........................................passed
+Then It Display My Profile Page.............................................passed
+When User Click on Upload Button to Update Profile Image Again..............passed
+Then Profile Image is Updated...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="vieworder" name="My Order Accessbility" time="39.024129">
+        <system-out><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on Registred My Profile Icon................................passed
+And User Click on My Profile Link...........................................passed
+When User Click on My Order Link............................................passed
+Then User will Display Ordered Products.....................................passed
+And User Click on View Details Link of first product........................passed
+Then User See Detailed Information of Product...............................passed
+Then User Click on Close Link of first product..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="vieworder" name="Add Bill in My Documents" time="31.96262">
+        <system-out><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on Registred My Profile Icon................................passed
+And User Click on My Profile Link...........................................passed
+Then User Click on My Documents link........................................passed
+When User Click on Add New Bill Button to Upload Bill.......................passed
+Then Bill is Displayed in My Documnets Page.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="vieworder" name="Removing of Bill Form My Documents" time="29.264874">
+        <system-out><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on Registred My Profile Icon................................passed
+And User Click on My Profile Link...........................................passed
+Then User Click on My Documents link........................................passed
+When User Click on Delete Button............................................passed
+Then Bill is Deleted From My Documents Page.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="vieworder" name="My_Cart_Empty" time="118.362871">
+        <failure message="org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status&#10;from unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LIN51010533', ip: '192.168.29.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4...}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 61eb8411e7e990dc92b01aba4e06a34f&#13;&#10;&#9;at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)&#13;&#10;&#9;at java.base/java.lang.reflect.Method.invoke(Method.java:577)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)&#13;&#10;&#9;at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)&#13;&#10;&#9;at com.step_defination.ViewOrderPageFactory.setAddToCartProduct1(ViewOrderPageFactory.java:542)&#13;&#10;&#9;at com.step_defination.Test_Steps_View_Order.userClick_onAddToCartButton(Test_Steps_View_Order.java:533)&#13;&#10;&#9;at ✽.User Click on Add To Cart Button(Feature/view_order.feature:103)&#13;&#10;"><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on My Cart Icon.............................................passed
+Then User See Message Cart Is Empty.........................................passed
+And User Click on Start Shopping Link.......................................passed
+Then User Naviagte to Shopping Page.........................................passed
+And User Click on Wall Stickers.............................................passed
+When User Click on Add To Cart Button.......................................failed
+Then Product Is Added To Cart...............................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51010533', ip: '192.168.29.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4...}, goog:chromeOptions: {debuggerAddress: localhost:9222}, javascriptEnabled: true, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), setWindowRect: false, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61eb8411e7e990dc92b01aba4e06a34f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at com.step_defination.ViewOrderPageFactory.setAddToCartProduct1(ViewOrderPageFactory.java:542)
+	at com.step_defination.Test_Steps_View_Order.userClick_onAddToCartButton(Test_Steps_View_Order.java:533)
+	at ✽.User Click on Add To Cart Button(Feature/view_order.feature:103)
+]]></failure>
+    </testcase>
+    <testcase classname="vieworder" name="Proceed To CheckOut" time="53.013316">
+        <system-out><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on My Cart Icon.............................................passed
+Then User Click on Checkout Button..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="vieworder" name="Remove Product From Cart" time="66.362731">
+        <system-out><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on My Cart Icon.............................................passed
+Then User Can See The Products Which are Added From Shop Page...............passed
+And User Click on Delete Symbol To Remove Product From Cart.................passed
+Then Product is Reomved from My Cart........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="vieworder" name="My wishList Accessibility" time="104.495335">
+        <system-out><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on My WishList Icon.........................................passed
+Then User See My WishList Empty.............................................passed
+And User Click on Continue Shopping to Add Product..........................passed
+Then User Naviagte to Shopping Page.........................................passed
+And User Click on Wall Stickers From WishList...............................passed
+Then User Clink on Add to WishList Button...................................passed
+Then Product Is Added To WishList...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="vieworder" name="Remove Product From wishList" time="82.923276">
+        <system-out><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on My WishList Icon.........................................passed
+Then User Can See The Products Which are Added From Shop Page...............passed
+And User Click on Cross Symbol..............................................passed
+Then Product is Removed From My WishList....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="vieworder" name="Logout Account" time="25.766279">
+        <system-out><![CDATA[Given User is on Registred Home Page........................................passed
+When User Click on Registred My Profile Icon................................passed
+And User Click on Signout link..............................................passed
+Then User Gets Signout From Account.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
